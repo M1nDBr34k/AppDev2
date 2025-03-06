@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="courses">
+        <h2>Courses Taken</h2>
+        <div id="course-list">Loading courses...</div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", fetchCourses);
+
+        function fetchCourses() {
+            // Fetch JSON data from GitHub Page
+            fetch('https://M1nDBr34k.github.io/AppDev/subjectenrolled.json')
+                .then(response => response.json())
+                .then(data => {
+                    const courseList = document.getElementById('course-list');
+                    courseList.innerHTML = '';
+                    const groupedSubjects = {};
+
+                    data.subjects.forEach(subject => {
+                        if (!groupedSubjects[subject.YearTerm]) {
+                            groupedSubjects[subject.YearTerm] = [];
+                        }
+                        groupedSubjects[subject.YearTerm].push(subject);
+                    });
+
+                    for (const [yearTerm, subjects] of Object.entries(groupedSubjects)) {
+                        const yearTermHeader = document.createElement('h3');
+                        yearTermHeader.textContent = yearTerm;
+                        courseList.appendChild(yearTermHeader);
+
+                        const table = document.createElement('table');
+                        const tableHead = `
+                            <thead>
+                                <tr>
+                                    <th>Subject Code</th>
+                                    <th>Descriptive Title</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        `;
+                        table.innerHTML = tableHead;
+                        const tableBody = table.querySelector('tbody');
+
+                        subjects.forEach(subject => {
+                            const row = document.createElement('tr');
+                            row.innerHTML = `<td>${subject.SubjectCode}</td><td>${subject.DescriptiveTitle}</td>`;
+                            tableBody.appendChild(row);
+                        });
+
+                        courseList.appendChild(table);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching courses:', error);
+                    document.getElementById('course-list').textContent = 'Failed to load courses.';
+                });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header, .header {
+    background: skyblue;
+    color: white;
+    padding: 10px 0;
+    text-align: left;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header h1, .header h1 {
+    margin-left: 20px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+header ul li a, .nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+}
+
+.nav {
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+    padding: 50px;
+}
+
+.main h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.main p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.buttons button {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background: red;
+}
+
+.image, .img {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+
+.box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer, .footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

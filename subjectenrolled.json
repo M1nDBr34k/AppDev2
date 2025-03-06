@@ -1,0 +1,52 @@
+{
+  "subjects": [
+    {"YearTerm": "1st Year - 1st Semester", "SubjectCode": "IT111", "DescriptiveTitle": "Introduction to Computing"},
+    {"YearTerm": "1st Year - 1st Semester", "SubjectCode": "IT112", "DescriptiveTitle": "Computer Programing 1"},
+    {"YearTerm": "1st Year - 1st Semester", "SubjectCode": "PurCom", "DescriptiveTitle": "Purposive Communication"},
+    {"YearTerm": "1st Year - 1st Semester", "SubjectCode": "RPH", "DescriptiveTitle": "Readings in Philippine History"},
+    {"YearTerm": "1st Year - 1st Semester", "SubjectCode": "TCW", "DescriptiveTitle": "The Contemporary World"},
+    {"YearTerm": "1st Year - 1st Semester", "SubjectCode": "MMW", "DescriptiveTitle": "Mathematics in the Modern World"},
+    {"YearTerm": "1st Year - 1st Semester", "SubjectCode": "PATH FIT 1", "DescriptiveTitle": "Movement Enhancement"},
+    {"YearTerm": "1st Year - 1st Semester", "SubjectCode": "NSTP101", "DescriptiveTitle": "ROTC/CWTS/LTS I"},
+
+    {"YearTerm": "1st Year - 2nd Semester", "SubjectCode": "IT121", "DescriptiveTitle": "Computer Programing 2"},
+    {"YearTerm": "1st Year - 2nd Semester", "SubjectCode": "IT122", "DescriptiveTitle": "Data Structures and Algorithms"},
+    {"YearTerm": "1st Year - 2nd Semester", "SubjectCode": "IT123", "DescriptiveTitle": "Discrete Mathematics"},
+    {"YearTerm": "1st Year - 2nd Semester", "SubjectCode": "ArtApp", "DescriptiveTitle": "Art Appreciation"},
+    {"YearTerm": "1st Year - 2nd Semester", "SubjectCode": "UTS", "DescriptiveTitle": "Understanding the Self"},
+    {"YearTerm": "1st Year - 2nd Semester", "SubjectCode": "PATH FIT 2", "DescriptiveTitle": "Fitness Activity and Exercises"},
+    {"YearTerm": "1st Year - 2nd Semester", "SubjectCode": "NSTP 102", "DescriptiveTitle": "ROTC/CWTS/LTS II"},
+    {"YearTerm": "1st Year - 2nd Semester", "SubjectCode": "STS", "DescriptiveTitle": "Science, Technology and Society"},
+
+    {"YearTerm": "2nd Year - 1st Semester", "SubjectCode": "IT211", "DescriptiveTitle": "Intro to Human Computer Interaction"},
+    {"YearTerm": "2nd Year - 1st Semester", "SubjectCode": "IT212", "DescriptiveTitle": "Fundamentals of Database Systems"},
+    {"YearTerm": "2nd Year - 1st Semester", "SubjectCode": "IT213", "DescriptiveTitle": "Platform Technologies"},
+    {"YearTerm": "2nd Year - 1st Semester", "SubjectCode": "IT214", "DescriptiveTitle": "Object Oriented Programming"},
+    {"YearTerm": "2nd Year - 1st Semester", "SubjectCode": "IT215", "DescriptiveTitle": "Accounting Principles"},
+    {"YearTerm": "2nd Year - 1st Semester", "SubjectCode": "PATH FIT 3", "DescriptiveTitle": "Physical Activity Towards Health and Fitness 1"},
+    {"YearTerm": "2nd Year - 1st Semester", "SubjectCode": "EnviSci", "DescriptiveTitle": "Environmental Science"},
+
+    {"YearTerm": "2nd Year - 2nd Semester", "SubjectCode": "IT221", "DescriptiveTitle": "Information Management"},
+    {"YearTerm": "2nd Year - 2nd Semester", "SubjectCode": "IT222", "DescriptiveTitle": "Networking 1"},
+    {"YearTerm": "2nd Year - 2nd Semester", "SubjectCode": "IT223", "DescriptiveTitle": "Web Systems and Technologies"},
+    {"YearTerm": "2nd Year - 2nd Semester", "SubjectCode": "IT224", "DescriptiveTitle": "Systems Integration and Architecture"},
+    {"YearTerm": "2nd Year - 2nd Semester", "SubjectCode": "Ethc", "DescriptiveTitle": "Ethics"},
+    {"YearTerm": "2nd Year - 2nd Semester", "SubjectCode": "Rizal", "DescriptiveTitle": "Life and Works of Rizal"},
+    {"YearTerm": "2nd Year - 2nd Semester", "SubjectCode": "PATH FIT 4", "DescriptiveTitle": "Physical Activity Towards Health and Fitness 2"},
+
+    {"YearTerm": "3rd Year - 1st Semester", "SubjectCode": "IT311", "DescriptiveTitle": "Information Assurance and Security"},
+    {"YearTerm": "3rd Year - 1st Semester", "SubjectCode": "IT312", "DescriptiveTitle": "Networking 2"},
+    {"YearTerm": "3rd Year - 1st Semester", "SubjectCode": "IT313", "DescriptiveTitle": "Mobile Programming"},
+    {"YearTerm": "3rd Year - 1st Semester", "SubjectCode": "IT314", "DescriptiveTitle": "Software Engineering"},
+    {"YearTerm": "3rd Year - 1st Semester", "SubjectCode": "IT315", "DescriptiveTitle": "IT Elective 1"},
+    {"YearTerm": "3rd Year - 1st Semester", "SubjectCode": "ES211a", "DescriptiveTitle": "Technopreneurship"},
+
+    {"YearTerm": "3rd Year - 2nd Semester", "SubjectCode": "IT321", "DescriptiveTitle": "CAPSTONE Project and Research 1"},
+    {"YearTerm": "3rd Year - 2nd Semester", "SubjectCode": "IT322", "DescriptiveTitle": "Integrative Programming and Technologies"},
+    {"YearTerm": "3rd Year - 2nd Semester", "SubjectCode": "IT323", "DescriptiveTitle": "Applications Development and Emerging Technologies"},
+    {"YearTerm": "3rd Year - 2nd Semester", "SubjectCode": "IT324", "DescriptiveTitle": "Quantitative Methods"},
+    {"YearTerm": "3rd Year - 2nd Semester", "SubjectCode": "IT325", "DescriptiveTitle": "IT Elective 2"},
+    {"YearTerm": "3rd Year - 2nd Semester", "SubjectCode": "PICPE", "DescriptiveTitle": "Philippine Indigenous Communities and Peace Education"},
+    {"YearTerm": "3rd Year - 2nd Semester", "SubjectCode": "FreeElec", "DescriptiveTitle": "Foreign Language"}
+  ]
+}
